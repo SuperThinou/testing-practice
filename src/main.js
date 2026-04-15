@@ -1,3 +1,3 @@
-import { capitalize } from "./capitalize";
+import { caesarCipher } from "./caesar-cipher";
 
-console.log(capitalize("hello"));
+console.log(caesarCipher("xyz", 3));
